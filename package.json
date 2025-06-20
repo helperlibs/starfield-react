@@ -1,0 +1,59 @@
+{
+	"name": "@helperd/starfield-react",
+	"version": "1.0.0",
+	"description": "React component for a 3D starfield animation background.",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.js"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"dev": "tsup --watch",
+		"build": "tsup",
+		"lint": "eslint .",
+		"preview": "vite preview"
+	},
+	"keywords": [
+		"react",
+		"canvas",
+		"background",
+		"stars",
+		"animation"
+	],
+	"author": "Évelyn Lacerda",
+	"license": "SEE LICENSE IN LICENSE",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/helperdevlibs/starfield-react"
+	},
+	"homepage": "https://starfieldreact.vercel.app/",
+	"dependencies": {
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0"
+	},
+	"peerDependencies": {
+		"react": ">=17.0.0",
+		"react-dom": ">=17.0.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.25.0",
+		"@types/react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+		"@types/react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0",
+		"@vitejs/plugin-react": "^4.4.1",
+		"eslint": "^9.25.0",
+		"eslint-plugin-react-hooks": "^5.2.0",
+		"eslint-plugin-react-refresh": "^0.4.19",
+		"globals": "^16.0.0",
+		"tsup": "^8.5.0",
+		"typescript": "~5.8.3",
+		"typescript-eslint": "^8.30.1",
+		"vite": "^6.3.5"
+	}
+}
